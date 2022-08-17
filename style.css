@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(88,202,157);
+  background: linear-gradient(90deg, rgba(88,202,157,1) 0%, rgba(35,198,134,1) 30%, rgba(12,97,63,1) 100%);
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  position: absolute;
+  height: 400px;
+  right: 0;
+}
+.doubt{
+  position: absolute;
+  right: 20%;
+  top: 250px;
+
+}
+.doubt img{
+  height: 220px;
+  width: 139px;
+}
+header h3{
+  margin-right: 35px;
+}
+header h3 a{
+  text-decoration: none;
+  color: black;
+}
+#ask{
+  background-color: #1d3853;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(184, 228, 198);
+}
+#ask:hover{
+  color: black;
+  background-color: #2d5278;
+}
+.main{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.main h1{
+  font-size: 55px;
+}
+
+.search {
+  width: 50vw;
+  margin-top: 350px;
+  margin-left: -230px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #1d3853;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 20px;
+}
+
+.searchTerm:focus{
+  color: #1d3853;
+}
+
+.searchButton {
+  width: 60px;
+  height: 64.5px;
+  border: 1px solid #1d3853;
+  background: #1d3853;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 24px;
+}
+.searchButton:hover{
+  color: #23c686;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #549978;
+  }
+  .card img{
+    border-radius: 10px;
+  }
+  .box{
+  display:flex;
+  position: absolute;
+   margin-top: 720px;
+   width: 100%;
+   margin-right: 20px;
+  }
+  .box h2{
+    font-size: 35px;
+  }
+  .card:hover {
+    box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .learn{
+    position: absolute;
+    margin-top: 1250px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .log img{
+    position: absolute;
+    left:20px;
+    top: 10px;
+    width: 250px;
+    height: 130px;
+  }
+  .image-txt-container {
+    display: flex;
+    align-items: center;
+    background-color: #549978;
+    margin-top: 1400px;
+    position: absolute;
+    text-align:center;
+    border-radius: 10px;
+    width: 99%;
+  }
+  .image-txt-container img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .btn{
+    background-color: #10270e;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    right: 6%;
+    }
+
+    .end{
+      position: absolute;
+      width: 100%;
+      background-color: transparent;
+      top: 2000px;
+      font-size: 20px;
+      color: black;
+    }
+    #contact hr{
+      color: black;
+    }
